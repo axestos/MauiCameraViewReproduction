@@ -1,0 +1,11 @@
+﻿@page "/"
+
+<button @onclick="GoToScanPage">Open Scan page modal</button>
+
+@code
+{
+    private void GoToScanPage()
+    {
+        App.Current.MainPage.Navigation.PushModalAsync(new BarcodeScanPage());
+    }
+}

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 50 85" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <g>
+    <rect x="16.231" y="48.697" width="16.386" height="33.315" style="stroke: rgb(0, 0, 0);"></rect>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="15.841" y1="43.956" x2="9.568" y2="30.942"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="39.817" y1="30.942" x2="33.544" y2="44.184"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="9.602" y1="31.14" x2="9.54" y2="27.672"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="39.761" y1="31.114" x2="39.699" y2="27.646"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="9.111" y1="27.725" x2="40.151" y2="27.725"></line>
+    <polygon style="stroke: rgb(0, 0, 0);" points="11.036 33.408 38.151 33.408 32.791 46.692 16.136 46.695"></polygon>
+    <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="24.555" cy="61.438" rx="2.361" ry="5.038"></ellipse>
+  </g>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 2; stroke-linecap: round;" x1="25.097" y1="22.022" x2="24.95" y2="2.569"></line>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 2; stroke-linecap: round;" x1="37.546" y1="24.181" x2="45.014" y2="11.589"></line>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); transform: scale(-1, 1); stroke-width: 2; stroke-linecap: round;" x1="-12.178" y1="24.331" x2="-4.41" y2="11.589"></line>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 2;" x1="13.736" y1="4.836" x2="17.782" y2="22.821"></line>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 2;" x1="31.72" y1="22.371" x2="37.115" y2="4.537"></line>
+</svg>

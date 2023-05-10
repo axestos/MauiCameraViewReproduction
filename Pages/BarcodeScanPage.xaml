@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCameraViewReproduction.Pages.BarcodeScanPage"
+             Title="BarcodeScanPage"
+             xmlns:cv="clr-namespace:BarcodeScanner.Mobile;assembly=BarcodeScanner.Mobile.Maui">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <cv:CameraView x:Name="CameraView" 
+                           VibrationOnDetected="True"
+                           CameraFacing="Back"
+                           TorchOn="False"
+                           OnDetected="OnBarcodeDetected"
+                           AbsoluteLayout.LayoutFlags="SizeProportional"  
+                           AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                           ZIndex="-1" />
+
+            <ImageButton x:Name="BackButton"
+                         BackgroundColor="LightGray"
+                         Clicked="BackButton_Clicked"
+                         WidthRequest="75"
+                         HeightRequest="75"
+                         CornerRadius="27" 
+                         Padding="10"
+                         AbsoluteLayout.LayoutFlags="PositionProportional"  
+                         AbsoluteLayout.LayoutBounds="0.2, 0.9, 1, 1"
+                         ZIndex="10" />
+
+            <ImageButton x:Name="FlashLightButton"
+                         BackgroundColor="LightGray"
+                         Clicked="ToggleFlashLight"
+                         WidthRequest="100"
+                         HeightRequest="100"
+                         CornerRadius="45"
+                         Padding="5"
+                         AbsoluteLayout.LayoutFlags="PositionProportional"  
+                         AbsoluteLayout.LayoutBounds="0.5, 0.9, 1, 1" 
+                         ZIndex="10" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
